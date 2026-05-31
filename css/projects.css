@@ -10,8 +10,8 @@
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
 }
 #plist {
-    width: 320px;
-    min-width: 320px;
+    width: 440px;
+    min-width: 440px;
     overflow-y: auto;
     border-right: 1px solid #d0d0e0;
     background: #f8f8fc;
@@ -34,7 +34,7 @@
     padding-left: 11px;
 }
 .plist__thumb {
-    width: 44px; height: 44px; min-width: 44px;
+    width: 75px; height: 75px; min-width: 75px;
     border-radius: 6px; overflow: hidden;
     background: #e8e8f4;
     display: flex; align-items: center; justify-content: center;
