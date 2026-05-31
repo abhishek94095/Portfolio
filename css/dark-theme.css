@@ -21,7 +21,7 @@ header a:hover { color: #3498db; background: #1a1a2e; }
 
 /* --- Lead / Hero --- */
 #lead {
-    background: url('../images/BG.png') center center / cover no-repeat, #0d0d14;
+    background: url('../images/BG.svg') center center / cover no-repeat, #0d0d14;
 }
 #lead-overlay {
     background: rgba(10, 15, 30, 0.82);
@@ -134,3 +134,7 @@ footer { background: #0a0a10; border-top: 1px solid #1e1e30; }
 ::-webkit-scrollbar-track { background: #0d0d14; }
 ::-webkit-scrollbar-thumb { background: #2a2a3e; border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: #3498db; }
+
+/* --- Projects section padding fix --- */
+#projects { padding: 50px 15px 60px; }
+#projects .heading { display: flex; align-items: center; gap: 12px; margin-bottom: 30px; }
