@@ -1,0 +1,103 @@
+[
+  {
+    "id": "got",
+    "title": "Game of Thrones — HBO Mobile Experience",
+    "description": "HBO-affiliated branded mobile project. Contributed to gameplay systems, UI architecture, optimization, and production-ready feature delivery under a tight timeline.",
+    "logo": "images/logos/GameOfThronesLogo.png",
+    "video": "got.mp4",
+    "tags": ["Unity", "C#", "VContainer", "Firebase", "Optimization", "Mobile"],
+    "metric": { "label": "Delivery", "value": "Production mobile under tight deadline" },
+    "links": { "main": "https://abhishek94095.itch.io/defrost-city", "label": "View Project" }
+  },
+  {
+    "id": "koami",
+    "title": "Koami — AI Wellbeing Companion",
+    "description": "AI-powered wellbeing companion built in Unity with GPT API integration. Features real-time streaming responses, mood-driven dialogue, and adaptive personality state systems.",
+    "logo": "images/logos/koami_logo.png",
+    "video": "koami.mp4",
+    "tags": ["Unity", "C#", "GPT / OpenAI", "Firebase", "VContainer", "AI Systems"],
+    "metric": { "label": "Feature", "value": "Real-time GPT streaming integration" },
+    "links": { "main": "https://play.google.com/store/apps/details?id=com.trysna.koami", "label": "Google Play" }
+  },
+  {
+    "id": "wgc",
+    "title": "Word Goose Chase",
+    "description": "Casual mobile word puzzle game with 2,700+ procedurally generated levels. Owned full feature development including LiveOps systems, progression, and platform stability.",
+    "logo": "images/logos/Game Icon.png",
+    "video": "wordgoose.mp4",
+    "tags": ["Unity", "C#", "Procedural Gen", "LiveOps", "VContainer", "Mobile"],
+    "metric": { "label": "Impact", "value": "94% cut in level generation time" },
+    "links": { "main": "https://gajabuja.com/i?g=wgc", "label": "Play Game" }
+  },
+  {
+    "id": "fijit",
+    "title": "Fijit — Casual & Trend Games",
+    "description": "Developed and maintained 15+ casual WebGL games for a TikTok-style platform. Focused on fast turnaround, LiveOps stability, and trend-driven mechanics.",
+    "logo": "images/logos/Fijit logo.png",
+    "video": "fijit.mp4",
+    "tags": ["Unity", "C#", "WebGL", "LiveOps", "Optimization"],
+    "metric": { "label": "Volume", "value": "15+ games shipped" },
+    "links": {
+      "main": "https://abhishek94095.itch.io/",
+      "label": "View on itch.io",
+      "extras": [
+        { "label": "NFL", "url": "https://abhishek94095.itch.io/nfl" },
+        { "label": "Santa Slay", "url": "https://abhishek94095.itch.io/santa-slay" },
+        { "label": "Chess", "url": "https://abhishek94095.itch.io/chess" },
+        { "label": "Solitaire", "url": "https://abhishek94095.itch.io/solitaire" },
+        { "label": "Knife Hit", "url": "https://abhishek94095.itch.io/knife-hit" },
+        { "label": "Thread Slash", "url": "https://abhishek94095.itch.io/thread-slash" }
+      ]
+    }
+  },
+  {
+    "id": "cooking",
+    "title": "Cooking Channel",
+    "description": "Casual kitchen simulation game with complex state-machine-driven mechanics. Integrated analytics, ad SDKs, and multiple LiveOps systems. Rewarded ads accounted for 40%+ of total ad impressions.",
+    "logo": "images/logos/CC logo.jpg",
+    "video": "cookingchannel.mp4",
+    "tags": ["Unity", "C#", "State Machine", "Ad SDK", "Analytics", "LiveOps"],
+    "metric": { "label": "Impact", "value": "40%+ of total ad impressions" },
+    "links": { "main": "https://play.google.com/store/apps/details?id=com.starfish.cooking", "label": "Google Play" }
+  },
+  {
+    "id": "merge2",
+    "title": "Merge Fever 2.0",
+    "description": "Casual merge puzzle game with 100k+ downloads. Built following SOLID principles with modular systems including Discovery, Energy, Spin Wheel, Orders, Flash Deals, and Decor.",
+    "logo": "images/logos/Merge2 Logo.png",
+    "video": "mergefever.mp4",
+    "tags": ["Unity", "C#", "SOLID", "Modular Architecture", "GitLab", "Mobile"],
+    "metric": { "label": "Downloads", "value": "100,000+" },
+    "links": { "main": "https://play.google.com/store/apps/details?id=com.puzzle.merge.games", "label": "Google Play" }
+  },
+  {
+    "id": "epicmerge",
+    "title": "Epic Merge",
+    "description": "Merge-3 casual puzzle game with 100k+ downloads. Implemented Castle, Pet, Character, Mine, and Pixi systems with GitLab source control and ScriptableObject-driven data architecture.",
+    "logo": "images/logos/epic merge logo.jpg",
+    "video": "epicmerge.mp4",
+    "tags": ["Unity", "C#", "ScriptableObjects", "GitLab", "Mobile"],
+    "metric": { "label": "Downloads", "value": "100,000+" },
+    "links": { "main": "https://play.google.com/store/apps/details?id=com.matchingham.mergegame", "label": "Google Play" }
+  },
+  {
+    "id": "matchmasters",
+    "title": "Match Masters — MPL",
+    "description": "Multiplayer puzzle game built with MPL. Implemented 1v1 sync and async multiplayer modes, scalable gameplay systems, and modular components using ScriptableObjects.",
+    "logo": "images/logos/mm logo.jpg",
+    "video": "matchmasters.mp4",
+    "tags": ["Unity", "C#", "Multiplayer", "ScriptableObjects", "MPL Platform"],
+    "metric": { "label": "Mode", "value": "1v1 Sync + Async Multiplayer" },
+    "links": null
+  },
+  {
+    "id": "hyper",
+    "title": "Hyper Casual Games",
+    "description": "Built 8 original hyper-casual games independently — from concept to build. Focused on fast prototyping, tight mechanics, and clean code architecture.",
+    "logo": "images/logos/hyper logo.png",
+    "video": "hypercasual.mp4",
+    "tags": ["Unity", "C#", "Prototyping", "Mobile", "Hyper Casual"],
+    "metric": { "label": "Volume", "value": "8 games built independently" },
+    "links": { "main": "https://abhishek94095.github.io/Portfolio", "label": "View Portfolio" }
+  }
+]
