@@ -1,0 +1,130 @@
+/**
+ * dark-theme.css
+ * Full-page dark mode. All overrides scoped to body.dark-mode.
+ * Default (no class) = light mode from styles.css.
+ */
+
+body.dark-mode {
+    background: #0d0d14;
+    color: #c8c8d8;
+}
+
+/* Header */
+body.dark-mode header ul { background: #13131f; border: 1px solid #1e1e30; }
+body.dark-mode header a { color: #a0cfee; }
+body.dark-mode header a:hover { color: #3498db; background: #1a1a2e; }
+body.dark-mode #mobile-menu-open { background: #13131f; color: #3498db; }
+body.dark-mode #mobile-menu-close { background: #13131f; color: #3498db; }
+
+/* Lead / Hero */
+body.dark-mode #lead { background: url('../images/BG.svg') center/cover no-repeat, #0d0d14; }
+body.dark-mode #lead-overlay { background: rgba(10,15,30,0.82); }
+
+/* About */
+body.dark-mode #about { background: #0d0d14; border-bottom-color: #1e1e30; }
+body.dark-mode #about h2 { color: #e8e8f0; }
+body.dark-mode #about p { color: #9090a8; }
+
+/* Experience */
+body.dark-mode #experience { background: #111119; border-bottom-color: #1e1e30; }
+body.dark-mode #experience h2 { color: #e8e8f0; }
+body.dark-mode .vtimeline-content { background: #1a1a2e; border-color: #2a2a3e; }
+body.dark-mode .vtimeline-content h3 { color: #e8e8f0; }
+body.dark-mode .vtimeline-content h4 { color: #7070a0; }
+body.dark-mode .vtimeline-content p { color: #9090a8; }
+body.dark-mode .vtimeline-date { color: #9090a8; }
+
+/* Education */
+body.dark-mode #education { background: #0d0d14; border-bottom-color: #1e1e30; }
+body.dark-mode #education h2 { color: #e8e8f0; }
+body.dark-mode .education-block { background: #1a1a2e; border-color: #2a2a3e; }
+body.dark-mode .education-block h3 { color: #e8e8f0; }
+body.dark-mode .education-block span { color: #3498db; }
+body.dark-mode .education-block h4 { color: #7070a0; }
+body.dark-mode .education-block p,
+body.dark-mode .education-block ul { color: #9090a8; }
+
+/* Projects section */
+body.dark-mode #projects { background: #111119; border-bottom-color: #1e1e30; }
+body.dark-mode #projects h2 { color: #e8e8f0; }
+
+/* Skills */
+body.dark-mode #skills { background: #0d0d14; }
+body.dark-mode #skills h2 { color: #e8e8f0; }
+body.dark-mode #skills li { background: #1a1a2e; color: #a0cfee; border: 1px solid #2a2a3e; }
+body.dark-mode #skills li:hover { border-color: #3498db; color: #3498db; }
+
+/* Footer */
+body.dark-mode footer { background: #0a0a10; border-top: 1px solid #1e1e30; }
+body.dark-mode .copyright p { color: #40405a; }
+body.dark-mode .top span { border-color: #2a2a3e; }
+body.dark-mode .top i { color: #50507a; }
+body.dark-mode .social a { color: #50507a; }
+body.dark-mode .social a:hover { color: #3498db; }
+
+/* background-alt */
+body.dark-mode .background-alt { background: #111119; }
+
+/* Heading */
+body.dark-mode .heading { color: #e8e8f0; }
+
+/* Theme toggle button */
+#theme-toggle {
+    padding: 5px 14px;
+    font-size: 0.78em;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid #c0c0d8;
+    background: transparent;
+    color: #505070;
+    cursor: pointer;
+    transition: all 0.2s;
+    vertical-align: middle;
+}
+#theme-toggle:hover { border-color: #3498db; color: #3498db; }
+body.dark-mode #theme-toggle { border-color: #2a2a3e; color: #a0cfee; }
+body.dark-mode #theme-toggle:hover { border-color: #3498db; color: #3498db; }
+
+/* Scrollbar */
+body.dark-mode ::-webkit-scrollbar { width: 5px; }
+body.dark-mode ::-webkit-scrollbar-track { background: #0d0d14; }
+body.dark-mode ::-webkit-scrollbar-thumb { background: #2a2a3e; border-radius: 3px; }
+body.dark-mode ::-webkit-scrollbar-thumb:hover { background: #3498db; }
+
+/* Projects section layout fix */
+#projects { padding: 50px 15px 60px; }
+#projects .heading { display: inline-flex; align-items: center; gap: 14px; }
+
+/* Education block layout */
+.education-block {
+    max-width: 860px;
+    margin: 0 auto 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 20px 24px;
+}
+.education-block h3 { float: none; font-size: 1.05em; }
+.education-block span { float: none; font-size: 0.85em; }
+.education-block h4 { width: 100%; margin: 4px 0 8px; }
+
+/* Skills */
+#skills li {
+    border-radius: 4px;
+    font-size: 0.95em;
+    margin: 5px;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+/* Theme toggle in nav */
+header li button#theme-toggle {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+    display: block;
+    padding: 10px 14px;
+    border-radius: 4px;
+    background: none;
+    cursor: pointer;
+}
